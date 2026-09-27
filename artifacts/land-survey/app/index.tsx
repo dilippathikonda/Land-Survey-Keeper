@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
   countPill: { borderRadius: 16, paddingHorizontal: 14, paddingVertical: 10, alignItems: 'center', minWidth: 66 },
   countNumber: { fontFamily: 'Inter_700Bold', fontSize: 20, lineHeight: 22 },
   countLabel: { fontFamily: 'Inter_500Medium', fontSize: 11 },
-  hero: { borderRadius: 24, padding: 20, minHeight: 153, overflow: 'hidden' },
+  hero: { borderTopLeftRadius: 15, borderTopRightRadius: 15, borderBottomRightRadius: 15, borderBottomLeftRadius: 15, padding: 20, minHeight: 153, overflow: 'hidden' },
   heroCopy: { width: '77%', gap: 8 },
   heroKicker: { color: 'rgba(255,255,255,0.72)', fontFamily: 'Inter_700Bold', fontSize: 10, letterSpacing: 1.2 },
   heroTitle: { color: '#FFFDF8', fontFamily: 'Inter_700Bold', fontSize: 23, lineHeight: 28, letterSpacing: -0.4 },
