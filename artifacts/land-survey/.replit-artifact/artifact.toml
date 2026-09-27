@@ -1,0 +1,24 @@
+kind = "mobile"
+previewPath = "/"
+title = "Land Survey"
+description = "An Android field app for saving land survey records, including plot and owner details, village or location, survey and deed references, measurements, GPS coordinates, photos, documents, and notes. Records are stored locally for offline use."
+version = "1.0.0"
+id = "artifacts/land-survey"
+router = "expo-domain"
+
+[[services]]
+name = "expo"
+ensurePreviewReachable = "/status"
+paths = [ "/" ]
+localPort = 18274
+
+[services.development]
+run = "pnpm --filter @workspace/land-survey run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/land-survey", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/land-survey", "run", "serve" ]
+
+[services.env]
+PORT = "18274"
+BASE_PATH = "/"

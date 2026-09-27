@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Land Survey",
+    "slug": "land-survey",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "land-survey",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#F7F4EC",
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {},
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
