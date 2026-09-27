@@ -60,8 +60,7 @@ export default function HomeScreen() {
               style={styles.hero}
             >
               <View style={styles.heroCopy}>
-                <Text style={styles.heroTitle}>Keep every boundary detail close.</Text>
-                <Text style={styles.heroBody}>Save plot notes, measurements, location, and evidence while you are on the ground.</Text>
+                <Text style={styles.heroTitle}>Keelapalli | JR Kothapalli | Ponnamakulapalli</Text>
               </View>
               <Feather name="compass" size={70} color="rgba(255,255,255,0.22)" style={styles.heroIcon} />
             </LinearGradient>
