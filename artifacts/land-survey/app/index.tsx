@@ -46,7 +46,6 @@ export default function HomeScreen() {
           <View style={styles.header}>
             <View style={styles.brandRow}>
               <View>
-                <Text style={[styles.eyebrow, { color: colors.accent }]}>FIELD NOTEBOOK</Text>
                 <Text style={[styles.heading, { color: colors.foreground }]}>Land survey</Text>
               </View>
               <View style={[styles.countPill, { backgroundColor: colors.secondary }]}>
