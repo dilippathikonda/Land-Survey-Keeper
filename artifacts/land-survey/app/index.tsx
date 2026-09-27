@@ -60,7 +60,6 @@ export default function HomeScreen() {
               style={styles.hero}
             >
               <View style={styles.heroCopy}>
-                <Text style={styles.heroKicker}>READY FOR THE NEXT SITE VISIT?</Text>
                 <Text style={styles.heroTitle}>Keep every boundary detail close.</Text>
                 <Text style={styles.heroBody}>Save plot notes, measurements, location, and evidence while you are on the ground.</Text>
               </View>
